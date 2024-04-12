@@ -24,3 +24,6 @@ int main() {
     std::cout << cf(number,opt) << std::endl;
     return 0;
 }
+
+
+//celsius and farenhiet

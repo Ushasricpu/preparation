@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
 
-int fact(int n){
-    int x,y;
+long double fact(long double n){
+    long double x,y;
     if(n==0){
         return 1;
     }
-    else{
+    else if(n>0){
          x= n*fact(n-1);
          return x;
     }
@@ -14,17 +14,17 @@ int fact(int n){
 }
 
 
-int count(int n){
-    int y;
-    int count1=fact(n);
+long double count(long double n){
+    long double y;
+    long double count1=fact(n);
     string str = to_string(count1);
     y=str.length();
     return y;
 
 }
 
-int main(){
-    int n;
+long double main(){
+    long double n;
     cout<<"enter number"<<endl;
     cin>>n;
     cout<<"factorial is"<<count(n)<<endl;

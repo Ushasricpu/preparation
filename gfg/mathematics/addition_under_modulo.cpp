@@ -8,7 +8,8 @@ using namespace boost::multiprecision;
 
 
  long long addition_under_modulo(long long a, long long b){
-  
+//unsigned long long int is biggest one
+//formula for modulo addition: (a+b) mod m =(a mod m+b mod m) mod m
     long long k=pow(10,9)+7;
     long long c=a%k;
     long long d=b%k;

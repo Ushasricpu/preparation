@@ -1,0 +1,13 @@
+standard template library
+
+
+Algorithms
+funtions
+containers
+    pairs is part utility library
+    p<int,int> p={1,2}
+    p.first, p.second
+    pair<int,par<int,int>> p={1,{1,2}}
+    p.second.first=1
+    p.second.second=2
+iterations
